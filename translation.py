@@ -2,8 +2,8 @@ import os
 from config import Config
 
 class Translation(object):
-  START_TXT = """<b>Hai {}!!</b>
-<i>I'm Simple Auto file Forward Bot
+  START_TXT = """<b>Hai {} how are you ❤️!!</b>
+<i>I'm Simple Auto file Forward Bot by fast move😉
 This Bot forward all files to One Public channel to Your Personal channel
 More details /help</i>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
