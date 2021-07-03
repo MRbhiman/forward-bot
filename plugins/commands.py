@@ -11,14 +11,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('❤️ Support Group', url='https://t.me/Mrbhiman12'),
+        InlineKeyboardButton('movie request channel 🎥', url='https://t.me/DX_Botz')
     ],[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Jijinr/Frwdit')
+        InlineKeyboardButton('devaloper 🔥', url='@mrbhiman44')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
-        chat_id=message.chat.id,
+        chat_id=message.chat.i
         reply_markup=reply_markup,
         text=Translation.START_TXT.format(
                 message.from_user.first_name),
